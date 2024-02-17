@@ -79,11 +79,10 @@ int main()
 	    		return 0; // closed program
 	    	default: //Unlisted Keys
 	    		printf("INVALID KEY!");
-	    		//printf("Deleting System32...");
 			getch();
 		}
 	    printf("\nDo you still want to using this Program? [ Y / N ] :  ");
 	    	y = getche();
     }                                            
-        while(y == 'y' || y == 'Y'); //while( y == 'n') deleteSystem32();
+        while(y == 'y' || y == 'Y');
 }
