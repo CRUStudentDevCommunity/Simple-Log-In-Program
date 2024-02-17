@@ -79,7 +79,6 @@ int main()
 	    		return 0; // closed program
 	    	default: //Unlisted Keys
 	    		printf("INVALID KEY!");
-			getch();
 		}
 	    printf("\nDo you still want to using this Program? [ Y / N ] :  ");
 	    	y = getche();
